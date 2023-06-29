@@ -8,6 +8,7 @@ class Vehicle:
 
     def print_curr_speed(self):
         print("the speed is ", self.max_speed)
+        print("car sounds are loud!!")
 
 class Bus(Vehicle):
     def __init__(self, name, max_speed, mileage) -> None:
