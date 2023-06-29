@@ -12,7 +12,7 @@ class Vehicle:
 class Bus(Vehicle):
     def __init__(self, name, max_speed, mileage) -> None:
         super().__init__(name, max_speed, mileage)
-        self.name = "Bus " + name
+        self.name = "Bus add more words " + name
     
 
 car1 = Vehicle("Toyota", 50, 100)
